@@ -49,4 +49,4 @@ gulp.task('watch', function () {
 });
 
 gulp.task('prepublish', ['nsp']);
-gulp.task('default', ['static', 'test']);
+gulp.task('default', [ 'test']);

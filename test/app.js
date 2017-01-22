@@ -10,9 +10,9 @@ describe('generator-daisy-express:app', function () {
       .toPromise();
   });*/
 
-  it('creates files', function () {
+ /* it('creates files', function () {
     assert.file([
       'dummyfile.txt'
     ]);
-  });
+  });*/
 });

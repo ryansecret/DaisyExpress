@@ -1,5 +1,5 @@
 'use strict'
-import  config from '../config/config';
+var  config=require('../config/config.js');
 var log = require("./loghelp");
 var redis = require("redis");
 function initialClient(param) {
